@@ -1936,9 +1936,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 3467605396143186232, guid: d15c9f155616b8a4e9c7aa967335fbd5, type: 3}
   spawnPoints:
-  - {fileID: 77187090}
-  - {fileID: 1066437528}
-  - {fileID: 2138954575}
+  - {fileID: 77187089}
+  - {fileID: 1066437527}
+  - {fileID: 2138954574}
+  beatInterval: 2
 --- !u!1 &1568982239
 GameObject:
   m_ObjectHideFlags: 0
