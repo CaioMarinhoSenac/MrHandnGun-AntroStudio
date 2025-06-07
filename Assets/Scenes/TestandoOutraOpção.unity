@@ -1502,8 +1502,8 @@ MonoBehaviour:
     m_Reference: {fileID: 0}
   muzzleTransform: {fileID: 1022726063}
   bulletPrefab: {fileID: 5083345619027787194, guid: 614264d4f9372ce43aa3236ac90cf96a, type: 3}
-  bulletForce: 500
-  cadence: 1
+  bulletForce: 6000
+  cadence: 0.5
   audioSource: {fileID: 1726596813}
   shootClip: {fileID: 8300000, guid: f448b9e58aaea004c83e08877acdee40, type: 3}
 --- !u!1 &997793370
@@ -2482,8 +2482,8 @@ MonoBehaviour:
     m_Reference: {fileID: 0}
   muzzleTransform: {fileID: 2129095043}
   bulletPrefab: {fileID: 5083345619027787194, guid: 614264d4f9372ce43aa3236ac90cf96a, type: 3}
-  bulletForce: 500
-  cadence: 2
+  bulletForce: 6000
+  cadence: 1
   audioSource: {fileID: 1568982240}
   shootClip: {fileID: 8300000, guid: 73e3f971315f6514795e8233569a2ba4, type: 3}
 --- !u!1 &1726596812
