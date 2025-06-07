@@ -1477,7 +1477,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 987642061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9bbd780e9031a649a740b4faf43ca81, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a738c8e9637f6e4c85e3190735dfd05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shootAction:
@@ -1486,12 +1486,12 @@ MonoBehaviour:
       m_Name: Shoot
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: c00b5f6b-6ba9-4263-a01c-e74597e7a6ce
+      m_Id: 9cfcdbe0-9413-489f-a0b8-fd08869e61b1
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: bed5e265-25d1-4e39-b0d0-cc5f64146325
+        m_Id: 819d372d-b74d-44b1-ab00-ab8ce9f1f61a
         m_Path: <XRController>{RightHand}/trigger
         m_Interactions: 
         m_Processors: 
@@ -1502,7 +1502,8 @@ MonoBehaviour:
     m_Reference: {fileID: 0}
   muzzleTransform: {fileID: 1022726063}
   bulletPrefab: {fileID: 5083345619027787194, guid: 614264d4f9372ce43aa3236ac90cf96a, type: 3}
-  bulletForce: 6000
+  bulletForce: 500
+  cadence: 1
   audioSource: {fileID: 1726596813}
   shootClip: {fileID: 8300000, guid: f448b9e58aaea004c83e08877acdee40, type: 3}
 --- !u!1 &997793370
@@ -2024,11 +2025,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 3467605396143186232, guid: d15c9f155616b8a4e9c7aa967335fbd5, type: 3}
   spawnPoints:
-  - {fileID: 77187090}
-  - {fileID: 1066437528}
-  - {fileID: 2138954575}
-  - {fileID: 322115746}
-  - {fileID: 849132992}
+  - {fileID: 77187089}
+  - {fileID: 1066437527}
+  - {fileID: 2138954574}
+  - {fileID: 322115745}
+  - {fileID: 849132991}
   beatInterval: 2
 --- !u!1 &1568982239
 GameObject:
@@ -2170,7 +2171,7 @@ GameObject:
   - component: {fileID: 1708773943}
   - component: {fileID: 1708773944}
   - component: {fileID: 1708773947}
-  - component: {fileID: 1708773949}
+  - component: {fileID: 1708773948}
   m_Layer: 0
   m_Name: LeftHand
   m_TagString: Untagged
@@ -2447,7 +2448,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1708773949
+--- !u!114 &1708773948
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2456,7 +2457,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1708773942}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9bbd780e9031a649a740b4faf43ca81, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f3900a8be02aaf4a990c1b89283a50e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shootAction:
@@ -2465,12 +2466,12 @@ MonoBehaviour:
       m_Name: Shoot
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 07240861-c1b1-4286-9e74-8077d40b5232
+      m_Id: 47d72464-da03-46aa-b4f0-603d695cef4b
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 1d1a392a-79a5-45c0-8ada-799eae3eb94c
+        m_Id: d9dacbfa-2b38-4f1f-a932-6ef3a0e33cc1
         m_Path: <XRController>{LeftHand}/trigger
         m_Interactions: 
         m_Processors: 
@@ -2481,7 +2482,8 @@ MonoBehaviour:
     m_Reference: {fileID: 0}
   muzzleTransform: {fileID: 2129095043}
   bulletPrefab: {fileID: 5083345619027787194, guid: 614264d4f9372ce43aa3236ac90cf96a, type: 3}
-  bulletForce: 6000
+  bulletForce: 500
+  cadence: 2
   audioSource: {fileID: 1568982240}
   shootClip: {fileID: 8300000, guid: 73e3f971315f6514795e8233569a2ba4, type: 3}
 --- !u!1 &1726596812
